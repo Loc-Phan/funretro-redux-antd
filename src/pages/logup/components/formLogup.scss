@@ -1,0 +1,66 @@
+.log-up {
+    height: 515px;
+    min-height: 485px;
+    width: 400px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 22%);
+    position: relative;
+    margin: 3% auto;
+    background: white;
+    padding: 5px;
+    .log-up-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Arial";
+        .label {
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 28px;
+            text-align: center;
+            padding-top: 55px;
+            color: rgb(65, 64, 64);
+        }
+        input {
+            width: 100%;
+            height: 36px;
+            font-size: 16px;
+            margin-bottom: 12px;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom: 2px solid #999;
+            outline: none;
+            background: transparent;
+            &:focus {
+                border-width: 0px;
+                outline: none;
+                border-bottom: 2px solid rgb(148, 34, 180);
+                transition: all 0.25s ease-in-out 0s;
+            }
+        }
+        .error-message {
+            color: red;
+            font-size: 16px;
+        }
+        .btn {
+            width: 100%;
+            height: 44px;
+            font-size: 16px;
+            color: white;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: 0;
+            outline: none;
+            &:hover {
+                cursor: pointer;
+            }
+            &.btn-logup {
+                background-color: #b84cd3;
+                &:hover {
+                    background-color: #b523da;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.detail-body {
+    display: flex;
+    // flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+
+    .col-card {
+        width: 31%;
+    }
+}
+
+.share-detail-board {
+    position: fixed;
+    right: 255px;
+    top: 8px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    // background-color: red;
+}

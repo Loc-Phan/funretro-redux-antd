@@ -1,0 +1,94 @@
+.addcard {
+    margin-top: 0px;
+    border: 7px solid #009688;
+    padding: 3px;
+
+    background-color: white;
+}
+
+.text-content {
+    width: 98%;
+    outline: 0;
+    border-width: 0px;
+    height: auto;
+
+    overflow-wrap: break-word;
+    overflow: hidden;
+    resize: none;
+    margin: 1%;
+    margin-bottom: 10px;
+    // overflow: hidden;
+    // overflow-wrap: break-word;
+    // resize: none;
+    // width: 100%;
+    // height: 55px;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    button {
+        font-size: 9px;
+        width: 40px;
+        padding: 2px;
+        color: white;
+
+        cursor: pointer;
+        outline: 0;
+        border-width: 0px;
+        background-color: #00c853;
+        border-bottom: 2px solid #00a946;
+
+        &:hover {
+            background-color: #00a946;
+        }
+    }
+}
+
+.card {
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+
+    background-color: #009688;
+    min-height: 50px;
+    padding: 10px;
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btndelete {
+    color: red;
+    cursor: pointer;
+    &:hover {
+        background-color: #f2f2f2;
+    }
+}
+
+.display {
+    display: block;
+}
+
+.nonedisplay {
+    display: none;
+}
+
+.iconEdit {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+
+    &:hover {
+        // background-color: #5cc789;
+        border: 2px white solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // opacity: 0.2;
+    }
+}

@@ -1,0 +1,5 @@
+export const ADD_BOARD = 'ADD_BOARD';
+export const FETCH_DATA = 'FETCH_DATA';
+export const UPDATE_BOARD = 'UPDATE_BOARD';
+export const CONFIRM_UPDATE_BOARD = 'CONFIRM_UPDATE_BOARD';
+export const DELETE_BOARD = 'DELETE_BOARD'

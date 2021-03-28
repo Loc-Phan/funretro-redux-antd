@@ -1,0 +1,14 @@
+.content {
+    padding: 30px;
+    .title-my-board {
+        padding: 10px;
+        color: #0404c5;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Arial";
+    }
+    .manage-board {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
